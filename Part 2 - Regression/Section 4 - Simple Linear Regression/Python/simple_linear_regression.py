@@ -75,3 +75,5 @@ plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of experience')
 plt.ylabel('Salary')
 plt.show()
+
+print(regressor.predict([[0]]))
